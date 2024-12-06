@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+nav{
+    background: linear-gradient(to right,#151515,#A91D3A);
+    font-family: Barlow Condensed;
+    
+}
+
+nav ul li{
+    font-size: larger; 
+    
+}
+
+nav ul li a{
+    margin: 20px;
+    
+}
+
+
+.card{
+    text-align: center;
+    background-color: #2A3335;
+    color: white;
+}
+
+.card:hover{
+    background: linear-gradient(to right top,#0A5EB0,black);
+    color: black;
+    transform: scale(1.10);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
